@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="#" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example_№2_practice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bg-image.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicons/favicon.ico">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/color-modes.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/aos.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-img">
+            <div class="col-5 col-lg-none">
+                <div class="row bg-black bg-opacity-50 h-100">
+                    <div class="col-lg-2 col-md-1">
+                    </div>
+                    <div class="col-8 col-sm-hidden">
+                        <div class="d-flex mt-5 pt-5 pb-5">
+                            <div class="bg-warning fs-4 text-center mt-2 mb-1 py-2 px-3 rounded"><i class="bi bi-airplane-fill"></i></div>
+                            <div class="mb-2 my-2 ps-2 fw-bold fs-3 text-white">FLIGHT</div>
+                        </div>
+                        <div class="">
+                            <div class="mt-5 fs-4 d-block fw-bold text-white my-5 mb-2">Choose Your Direction:</div>
+                            <div class="row  ms-1 mt-3">
+                                <div class="col-9 bg-opacity-25 bg-black py-3 align-self-center">
+                                    <div class="text-white">FIND US ON FACEBOOK</div>
+                                </div>
+                                <div class="col-1 bg-opacity-25 fs-3 align-self-center bg-white py-2">
+                                    <a class="link-light" href="#"><i class="bi-facebook"></i></a>
+                                </div>
+                                <div class="col-2"></div>
+                            </div>
+                            <div class="row  ms-1 mt-3">
+                                <div class="col-9 bg-opacity-25 bg-black py-3 align-self-center">
+                                    <div class="text-white">OUR YOURE CHANNEL</div>
+                                </div>
+                                <div class="col-1 bg-opacity-25 fs-3 align-self-center bg-white bg-opacity-25 py-2">
+                                    <a class="link-light" href="#"><i class="bi-youtube"></i></a>
+                                </div>
+                                <div class="col-2"></div>
+                            </div>
+                            <div class="row  ms-1 mt-3">
+                                <div class="col-9 bg-black bg-opacity-25 py-3 align-self-center">
+                                    <div class="text-white">FOLLOW OUR INSTAGRAM</div>
+                                </div>
+                                <div class="col-1 bg-white bg-opacity-25 fs-3 align-self-center  bg-opacity-25 py-2">
+                                    <a class="link-light" href="#"><i class="bi-instagram"></i></a>
+                                </div>
+                                <div class="col-2"></div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 mb-0">
+                            <div class="col-7 mt-5">
+                                <div class="bg-warning fw-bold text-white fs-5 align-self-center text-center mt-2 py-2 rounded-top"><i class="bi bi-telephone-fill text-black me-2"></i>Contact Us Now</div>
+                            </div>
+                            <div class="col-5"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-1 col-sm-hidden"></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col">
+                <div class="pt-5 pb-5"></div>
+                    <div id="collapseWidthExample" class="card card-body mt-5 mx-3 fw-bold ">
+                        <div class="h4 fw-bold mb-1">Check availability for direction:</div> 
+
+                        <hr>
+
+                        <div class="">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-6 mt-3">
+                                            <div class="form-group ms-2">
+                                                <div>
+                                                    <div class="ms-3 mb-4">FROM:</div>
+                                                </div>
+
+                                                <select class="form-select form-select-sm mb-3 ms-2" aria-label="select example">
+                                                    <option selected><p class="text-opacity-25">Select a location...</p></option>
+                                                    <option value="1">AŞGABAT</option>
+                                                    <option value="2">DAŞOGUZ</option>
+                                                    <option value="3">LEBAP</option>
+                                                    <option value="2">MARY</option>
+                                                    <option value="3">BALKAN</option>
+                                                </select>
+
+                                                <div>
+                                                    <div class="ms-3 mb-4">DEPERATURA DATE:</div>
+                                                </div>
+
+                                                <div class="ms-2 input-group date" id='datetimepicker1'>
+                                                    <input type='date' class="form-control me-2" />
+                                                    <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="d-flex form-check mt-4 mb-4">
+                                                    <div class="col-5 d-flex">
+                                                        <div>ROUND:</div>
+                                                        <div><input class="form-check-input ms-1" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></div>
+                                                    </div>
+                                                    
+                                                    <div class="col"></div>
+
+                                                    <div class="col-5 d-flex">
+                                                        <div>ONEWAY:</div>
+                                                        <div><input class="form-check-input ms-1" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></div>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <div class="form-group me-2">
+                                                <div>
+                                                    <div class="ms-3 mb-4">TO:</div>
+                                                </div>
+
+                                                <select class="form-select form-select-sm mb-3 ms-3" aria-label="select example">
+                                                    <option selected><p class="text-opacity-25">Select a location...</p></option>
+                                                    <option value="1">AŞGABAT</option>
+                                                    <option value="2">DAŞOGUZ</option>
+                                                    <option value="3">LEBAP</option>
+                                                    <option value="2">MARY</option>
+                                                    <option value="3">BALKAN</option>
+                                                </select>
+
+                                                <div>
+                                                    <div class="ms-3 mb-4">RETURN DATE:</div>
+                                                </div>
+
+                                                <div class=" ms-3 input-group date" id='datetimepicker1'>
+                                                    <input type='date' class="form-control me-2" />
+                                                    <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="mt-4 mb-4 d-grid gap-2 ms-3">
+                                                    <button class="btn btn-warning fw-bold" type="button">Order Tichet Now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5">
+                <div class="h1 text-center my-5">CHECK WEATHER FOR 5 NEXT DAYS</div>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="on" checked>
+                            <label class="btn btn-outline-secondary" for="btnradio1" aria-controls="multiCollapseExample1 multiCollapseExample2">MONDAY</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-secondary" for="btnradio2">TUESDAY</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                            <label class="btn btn-outline-secondary" for="btnradio3">WEDNESDAY</label>
+                            
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                            <label class="btn btn-outline-secondary" for="btnradio4">THURSDAY</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                            <label class="btn btn-outline-secondary" for="btnradio5">FRIDAY</label>
+                        </div>
+                        <!-- <div class="col d-grid gap-3 align-self-center btn btn-outline-warning text-center" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">MONDAY
+                        </div> -->
+                        <!-- <div class="col">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample2">TUESDAY</button>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample2">WEDNESDAY</button>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample2">THURSDAY</button>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample2">FRIDAY</button>
+                            </p>
+                        </div>
+                        <div class="col">
+                        </div> -->
+                    </div>
+                    <div class="bg-img-weather">
+                        <div class="row fw-bold">
+                            <div class="col bg-white bg-opacity-25 m-5 py-4">
+                                <div class="col m-4 p-2 fw-bold text-center">
+                                    <div class="m-4 text-white h4">Myanmar</div>
+                                        <img class="m-4" src="icons/weather-icon-03.png" alt="">
+                                    <div class="text-center fw-bold m-4 pb-4 text-white h4">32°C</div>
+                                </div>
+                                <div class="bg-white bg-opacity-50 small mx-2 text-center">
+                                    <div class="row pt-4 pb-3 small text-black">
+                                        <div class="col">6AM</div>
+                                        <div class="col">12AM</div>
+                                        <div class="col">6AM</div>
+                                        <div class="col">12AM</div>
+                                    </div>
+                                    <div class="row pb-4 text-black">
+                                        <div class="col bg-black bg-opacity-25  py-3 mx-3">26°</div>
+                                        <div class="col bg-black bg-opacity-25 py-3 mx-3">32°</div>
+                                        <div class="col bg-black bg-opacity-25 py-3 mx-3">28°</div>
+                                        <div class="col bg-black bg-opacity-25  py-3 mx-3">22°</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col bg-white bg-opacity-25 m-5 py-4">
+                                <div class="col m-4 p-2 fw-bold text-center">
+                                    <div class="m-4 text-white h4">Thailand</div>
+                                        <img class="m-4" src="icons/weather-icon-02.png" alt="">
+                                    <div class="text-center fw-bold m-4 pb-4 text-white h4">32°C</div>
+                                </div>
+                                <div class="bg-white bg-opacity-50 small mx-2 text-center">
+                                    <div class="row pt-4 pb-3 small text-black">
+                                        <div class="col">6AM</div>
+                                        <div class="col">12AM</div>
+                                        <div class="col">6AM</div>
+                                        <div class="col">12AM</div>
+                                    </div>
+                                    <div class="row pb-4 text-black">
+                                        <div class="col bg-black bg-opacity-25  py-3 mx-3">26°</div>
+                                        <div class="col bg-black bg-opacity-25 py-3 mx-3">32°</div>
+                                        <div class="col bg-black bg-opacity-25 py-3 mx-3">28°</div>
+                                        <div class="col bg-black bg-opacity-25  py-3 mx-3">22°</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col bg-white bg-opacity-25 m-5 py-4">
+                                <div class="col m-4 p-2 fw-bold text-center">
+                                    <div class="m-4 text-white h4">India</div>
+                                        <img class="m-4" src="icons/weather-icon-01.png" alt="">
+                                    <div class="text-center fw-bold m-4 pb-4 text-white h4">32°C</div>
+                                </div>
+                                <div class="bg-white bg-opacity-50 small mx-2 text-center">
+                                    <div class="row pt-4 pb-3 small text-black">
+                                        <div class="col">6AM</div>
+                                        <div class="col">12AM</div>
+                                        <div class="col">6AM</div>
+                                        <div class="col">12AM</div>
+                                    </div>
+                                    <div class="row pb-4 text-black">
+                                        <div class="col bg-black bg-opacity-25  py-3 mx-3">26°</div>
+                                        <div class="col bg-black bg-opacity-25 py-3 mx-3">32°</div>
+                                        <div class="col bg-black bg-opacity-25 py-3 mx-3">28°</div>
+                                        <div class="col bg-black bg-opacity-25  py-3 mx-3">22°</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="py-5 my-5 text-center">
+                        <div class="row">
+                            <div class="col bg-secondary py-5 m-4">
+                                <div class="py-5">
+                                    <img src="icons/service-icon-01.png" alt="">
+                                </div>
+                                <div class="h3 text-white">EASY TOOPLATE</div>
+                                <div class="text-white">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi quibusdam necessitatibus ipsa nobis adipisci repudiandae nisi! Molestias, praesentium, repellat animi ab vel deserunt beatae eveniet enim, ratione quis iure.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col bg-secondary py-5 m-4">
+                                <div class="py-5">
+                                    <img src="icons/service-icon-02.png" alt="">
+                                </div>
+                                <div class="h3 text-white">EASY TOOPLATE</div>
+                                <div class="text-white">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore blanditiis sunt autem commodi soluta, et exercitationem cumque, dicta veniam est! Ducimus deserunt dolores molestiae earum laborum adipisci, repellat culpa?</p>
+                                </div>
+                            </div>
+
+                            <div class="col bg-secondary py-5 m-4">
+                                <div class="py-5">
+                                    <img src="icons/service-icon-03.png" alt="">
+                                </div>
+                                <div class="h3 text-white">EASY TOOPLATE</div>
+                                <div class="text-white">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores labore sequi voluptatem facilis, asperiores eos debitis repudiandae autem molestias, accusantium aliquid. Repellat hic similique dolor praesentium sequi quae suscipit soluta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark bg-opacity-25">
+        <div class="container">
+            <div class="text-center h2 py-5">RECOMMENDED HOTEL FOR YOU</div>
+            <div class="row">
+                <div class="col-5">
+                    <!-- <div class="d-grid gap-2">
+                        <div class="btn-group">
+                            <button class="btn btn-primary text-right d-flex justify-content-between" type="button">LIVING ROOM 
+                                <div class="bg-white bg-opacity-25"><i class="bi bi-chevron-right"></i></div></button>
+                      </div> -->
+                    <!-- <div class="d-flex bg-warning d-flex justify-content-between">
+                        <div class="col">LIVING ROOM </div>
+                        <div> </div>
+                        <div class="col"><i class="bi bi-chevron-right"></i></div>
+                    </div> -->
+                    <div class="row  ms-1 mt-2">
+                        <div class="col-9 bg-secondary py-3 align-self-center">
+                            <div class="text-white fw-bold">FIND US ON FACEBOOK</div>
+                        </div>
+                        <div class="col-1 bg-opacity-25 fs-3 align-self-center bg-white py-2">
+                            <a class="link-light" href="#"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    
+                    <div class="row ms-1 mt-3">
+                        <div class="col-9 bg-secondary py-3 align-self-center">
+                            <div class="text-white fw-bold">SUIT ROOM</div>
+                        </div>
+                        <div class="col-1 bg-opacity-25 fs-3 align-self-center bg-white bg-opacity-25 py-2">
+                            <a class="link-light" href="#"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+                    <div class="row  ms-1 mt-3">
+                        <div class="col-9 bg-secondary py-3 align-self-center">
+                            <div class="text-white fw-bold">SWIMING POOL</div>
+                        </div>
+                        <div class="col-1 fs-3 align-self-center bg-white bg-opacity-25 py-2">
+                            <a class="link-light" href="#"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+                    <div class="row  ms-1 mt-3">
+                        <div class="col-9 bg-secondary py-3 align-self-center">
+                            <div class="text-white fw-bold">MESSAGE SERVICE</div>
+                        </div>
+                        <div class="col-1 fs-3 align-self-center bg-white bg-opacity-25 py-2">
+                            <a class="link-light" href="#"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+                    <div class="row  ms-1 mt-3">
+                        <div class="col-9 bg-secondary py-3 align-self-center">
+                            <div class="text-white fw-bold">FITNESS LIFE</div>
+                        </div>
+                        <div class="col-1 bg-opacity-25 fs-3 align-self-center bg-white bg-opacity-25 py-2">
+                            <a class="link-light" href="#"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+
+                    <div class="row  ms-1 mt-3">
+                        <div class="col-9 bg-secondary py-3 align-self-center">
+                            <div class="text-white fw-bold">EVENING EVENT</div>
+                        </div>
+                        <div class="col-1 bg-white bg-opacity-25 fs-3 align-self-center  bg-opacity-25 py-2">
+                            <a class="link-light" href="#"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 col">
+                    <iframe src="videos/26Что такое JAVASCRIPT_ Как работает JS_ Пишем первую программу на JavaScript. Уроки JAVASCRIPT с нуля.mp4" title="TmTube video" allowfullscreen></iframe>
+                </div>
+                <div class="p-5"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-center h2 pt-5 fw-bold">MOST VISITED PLACES</div>    
+        <div class="container-xl py-3">
+            <div class="splide gallery-2" role="group">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-01.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">NEW YORK</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-02.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">PARIS</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-03.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">HOLLYWOOD</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-04.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">TOKYO</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-01.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">NEW YORK</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-02.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">PARIS</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-03.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">HOLLYWOOD</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide card border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <img src="img/place-04.jpg" alt="" class="img-fluid">
+                            <div class="fw-bold">
+                                <h4>River Views</h4>
+                                <span class="text-primary">TOKYO</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="container-fluid bg-secondary">
+                <div class="d-flex justify-content-center pt-5">
+                    <a href="#" class="btn btn-outline-warning">Back To Top</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="h3 p-4 m-3">
+                        <div class="">
+                            <a href="#"><i class="bi bi-facebook p-2 bg-white bg-opacity-25 text-white"></i></a>
+                            <a href="#"><i class="bi bi-skype bi bi-facebook p-2 bg-white bg-opacity-25 text-white"></i></a>
+                            <a href="#"><i class="bi bi-linkedin bi bi-facebook p-2 bg-white bg-opacity-25 text-white"></i></a>
+                            <a href="#"><i class="bi bi-instagram bi bi-facebook p-2 bg-white bg-opacity-25 text-white"></i></a>
+                            <a href="#"><i class="bi bi-tiktok bi bi-facebook p-2 bg-white bg-opacity-25 text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center pb-3">Copyright © 2018 Flight Tour and Travel Company | Design:  
+                    <a class="link" href="#"> Flight</a>
+                </div>
+                <div class="d-flex flex-row-reverse  offcanvas-body bd-highlight">
+                    <!-- If Theme -->
+                    <div class="bd-highligh p-2">
+                        <button class="btn btn-primary dropdown-toggle" id="bd-theme" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi-circle-half"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <button class="dropdown-item" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="bi-sun-fill me-2"></i> Light
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" data-bs-theme-value="dark" aria-pressed="false">
+                                    <i class="bi-moon-stars-fill me-2"></i> Dark
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" data-bs-theme-value="auto" aria-pressed="false">
+                                    <i class="bi-circle-half me-2"></i> Auto
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+        
+</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.gallery-1', {
+                type: 'loop',
+                autoplay: true,
+                interval: 3000,
+                arrows: false,
+                pagination: false,
+                perPage: 4,
+                perMove: 1,
+                padding: '0.5rem',
+                gap: '0.5rem',
+                breakpoints: {
+                    991: {
+                        perPage: 3,
+                    },
+                    576: {
+                        perPage: 2,
+                    },
+                },
+            });
+            splide.mount();
+        });
+        
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.gallery-2', {
+                type: 'loop',
+                autoplay: true,
+                interval: 3000,
+                arrows: false,
+                pagination: false,
+                perPage: 4,
+                perMove: 1,
+                padding: '0.5rem',
+                gap: '0.5rem',
+                breakpoints: {
+                    991: {
+                        perPage: 3,
+                    },
+                    576: {
+                        perPage: 2,
+                    },
+                },
+            });
+            splide.mount();
+        });
+
+        AOS.init({
+            once: true,
+        });
+    </script>
+</body>
+</html>
